@@ -15,6 +15,6 @@ class TrackAPI extends RESTDataSource {
         // Note the use of backticks (`), because we're using string interpolation to add the authorId at the end.
         return this.get(`author/${authorId}`);
     }
-
-
 }
+
+module.exports = TrackAPI;
